@@ -1,0 +1,16 @@
+exercice1:
+1. Déterminez le résultat affiché par ce programme. 
+le programme affiche:
+15 20
+2. Expliquez la différence entre le passage par valeur et le passage par référence.
+le passage par valeur on fait une copie du variable,l'origine dans le main ne change pas et la fonction travaille sur le copie.
+pour le passage par reference on donne un surnom de la variable original toute modification dans la fonction modifie directement la
+variable dans le main.
+3. Modifiez la fonction modifier() pour que les deux variables soient modifiées. 
+void modifier(int &a, int &b) {
+    a += 5;
+    b += 10;
+}
+4. Expliquez le rôle de l'opérateur & dans la déclaration des paramètres.
+le role de cette operateur et de montrer que le parametre qui a a cote est une reference
+c'est a dire un autre nom pour le variable on travaille directement sur l'original.
